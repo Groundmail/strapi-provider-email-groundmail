@@ -1,0 +1,79 @@
+{
+  "name": "strapi-provider-email-groundmail",
+  "version": "0.1.0",
+  "description": "Strapi email provider for Groundmail transactional email (Strapi 4 and 5)",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.cts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Groundmail/strapi-provider-email-groundmail.git"
+  },
+  "homepage": "https://docs.groundmail.dev/frameworks/strapi",
+  "bugs": {
+    "url": "https://github.com/Groundmail/strapi-provider-email-groundmail/issues"
+  },
+  "keywords": [
+    "strapi",
+    "strapi-provider",
+    "strapi-provider-email",
+    "strapi-email",
+    "provider",
+    "email",
+    "transactional-email",
+    "groundmail"
+  ],
+  "strapi": {
+    "name": "groundmail",
+    "displayName": "Groundmail",
+    "description": "Send Strapi emails through Groundmail, a transactional email API on its own mail servers.",
+    "isProvider": true
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.0.0 || ^5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@strapi/strapi": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "groundmail": ">=0.14.5 <1.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5",
+    "vitest": "^3.2.4"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --target node18 --external groundmail --clean",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  }
+}
