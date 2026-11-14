@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://groundmail.dev">
+  <a href="https://groundmail.dev?utm_source=github&utm_medium=readme&utm_campaign=strapi-provider-email-groundmail">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://app.groundmail.dev/images/github/readme-logo-dark.png">
       <img alt="Groundmail" src="https://app.groundmail.dev/images/github/readme-logo-light.png" height="44">
@@ -10,7 +10,7 @@
 <h1 align="center">Groundmail for Strapi</h1>
 
 <p align="center">
-  A <a href="https://strapi.io">Strapi</a> email provider for the Groundmail API.<br>
+  A <a href="https://strapi.io">Strapi</a> email provider for the Groundmail transactional email API.<br>
   Password resets, account confirmations and <code>strapi.plugin('email')</code> sends go out through Groundmail.
 </p>
 
@@ -20,9 +20,9 @@
 </p>
 
 <p align="center">
-  <a href="https://docs.groundmail.dev/frameworks/strapi">Docs</a> ·
-  <a href="https://app.groundmail.dev/signup">Get a free account</a> ·
-  <a href="https://groundmail.dev">groundmail.dev</a>
+  <a href="https://docs.groundmail.dev/frameworks/strapi?utm_source=github&utm_medium=readme&utm_campaign=strapi-provider-email-groundmail">Docs</a> ·
+  <a href="https://app.groundmail.dev/signup?utm_source=github&utm_medium=readme&utm_campaign=strapi-provider-email-groundmail">Get a free account</a> ·
+  <a href="https://groundmail.dev?utm_source=github&utm_medium=readme&utm_campaign=strapi-provider-email-groundmail">groundmail.dev</a>
 </p>
 
 ---
@@ -96,9 +96,9 @@ Found a bug or want something added? [Open an issue](https://github.com/Groundma
 
 ## Why Groundmail
 
-- **Separate streams.** Your sign-in codes never wait behind a newsletter.
-- **We run the servers.** Our own mail servers and IP space, so we can see and fix delivery problems ourselves.
-- **Start free.** 3,000 emails a month on the Free plan; Pro is 50,000 emails for $20/month. Dedicated IPs on Scale.
+- **Our own mail servers and IP space.** Your password resets and receipts don't share a pool with bulk marketing senders.
+- **Transactional email only.** No newsletters or cold outreach on the platform, which keeps the sending reputation clean.
+- **Start free.** Free covers 3,000 emails a month. After that, pay as you go is $15 a month with 20,000 emails included, then from $0.70 per 1,000, less as you grow. [Pricing](https://groundmail.dev/pricing/?utm_source=github&utm_medium=readme&utm_campaign=strapi-provider-email-groundmail)
 - **Built for code and for agents.** REST API, SMTP, SDKs for Node, Python, Go, PHP and Ruby, a CLI, and an MCP server for Claude, ChatGPT and Cursor.
 
 ## All Groundmail libraries
@@ -121,4 +121,4 @@ Found a bug or want something added? [Open an issue](https://github.com/Groundma
 | Agent skills and Claude Code plugin | [Groundmail/groundmail-skills](https://github.com/Groundmail/groundmail-skills) |
 | Email templates (React Email, MJML, HTML) | [Groundmail/email-templates](https://github.com/Groundmail/email-templates) |
 
-[Website](https://groundmail.dev) · [Docs](https://docs.groundmail.dev) · [Pricing](https://groundmail.dev/pricing) · [Sign up free](https://app.groundmail.dev/signup)
+[Website](https://groundmail.dev?utm_source=github&utm_medium=readme&utm_campaign=strapi-provider-email-groundmail) · [Docs](https://docs.groundmail.dev?utm_source=github&utm_medium=readme&utm_campaign=strapi-provider-email-groundmail) · [Pricing](https://groundmail.dev/pricing/?utm_source=github&utm_medium=readme&utm_campaign=strapi-provider-email-groundmail) · [Sign up free](https://app.groundmail.dev/signup?utm_source=github&utm_medium=readme&utm_campaign=strapi-provider-email-groundmail)
